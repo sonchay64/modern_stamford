@@ -8414,7 +8414,7 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: rgba(13,110,253,1.0);!important; }
+  color: rgba(13,110,253,1.0) !important; }
 
 a.text-primary:hover, a.text-primary:focus {
   color: #0248b1 !important; }
