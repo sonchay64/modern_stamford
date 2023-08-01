@@ -63,6 +63,51 @@ body {
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important; }
 
+/**** Scrollbar ***/
+/* width */
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track{
+    background: #cdf0ff;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb{
+    background:#0454A2;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #23b0ed;
+}
+
+/*-- Firefox --*/
+body::-moz-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+body::-moz-scrollbar-track{
+    background: #cdf0ff;
+}
+
+/* Handle */
+body::-moz-scrollbar-thumb {
+    background:#0454A2;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-moz-scrollbar-thumb:hover {
+    background: #23b0ed;
+}
+
+/**** Scrollbar ***/
+
 hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
