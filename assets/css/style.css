@@ -14335,11 +14335,17 @@ textarea.rounded-pill {
     position: relative;
 }
 
-.sub-nav_apply .btn:hover , .hover-me:hover
+.sub-nav_apply .btn:hover , .hover-me:hover 
 {
   background-color: #23B0ED;
   border-color: #13abec; 
   color: #fff;
+}
+
+.fa-th:hover
+{
+  color: #23B0ED !important;
+  font-weight: bold;
 }
 
 .sub_home__admissioninfo_overlay
